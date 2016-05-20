@@ -47,7 +47,6 @@
 		display: inline-block;
 		margin: 0 10px;
 	}
-
 	.awesome-sect .comment-block .img-block {
 		margin-right: 30px;
 		width: 100%;
@@ -61,7 +60,7 @@
 		border: 20px solid transparent;
 		content: '';
 		position: absolute;
-		bottom: 170px;
+		bottom: 195px;
 		border-bottom: 35px solid #F9F9F9;
 		right: 47%;
 	}
@@ -69,20 +68,54 @@
 		border: 20px solid transparent;
 		content: '';
 		position: absolute;
-		bottom: 170px;
+		bottom: 195px;
 		border-bottom: 35px solid #F9F9F9;
 		left: 47%;
 	}
-}
-
-@media only screen and (max-width: 575px) {
+	.creative-sect h1 {
+		font-size: 40px;
+	}
+	.relax-sect .right-block .container-right {
+		padding-left: 20px;
+	}
+	header .container nav ul li {
+		margin: 0;
+		font-size: 14px;
+		padding: 0 3%;
+	}
+	header .container nav {
+		float: none;
+		text-align: center;
+		margin-top: 35px;
+		margin-bottom: 0;
+	}
+	header .container .logo {
+		float: none;
+		text-align: center;
+	}
+	header .container {
+		padding-bottom: 20px;
+	}
+	.service-sect .blocks {
+		width: 100%;
+	}
+	.service-sect h3 {
+		font-size: 35px;
+	}
+	.culture-sect .block-culture p {
+		max-width: 300px;
+		margin: 0 auto;
+	}
 	.footer-sect .container-footer .info-block {
 		width: 100%;
 		margin-left: 30px;
 	}
 	.footer-sect .container-footer .info-block h5 {
-
+		text-align: center;
 	}
+}
+
+@media only screen and (max-width: 575px) {
 	.copyright-sect .block-copyright {
 		width: 100%;
 		margin-bottom: 45px;
@@ -92,28 +125,13 @@
 	.copyright-sect .markup-block {
 		margin-bottom: 0;
 	}
-	header .container nav ul li {
-		margin: 0 5px;
-	}
-	header .container nav {
-		float: none;
-		text-align: center;
-		margin-top: 35px;
-		margin-bottom: 0;
-	}
-	header .container .logo {
-		 float: none;
-		text-align: center;
-	}
-	header .container {
-		padding-bottom: 20px;
-	}
 	.culture-sect .block-culture {
 		width: 100%;
 	}
 	.culture-sect .border {
 		display: none;
 	}
+
 }
 @media only screen and (max-width: 480px) {
 
