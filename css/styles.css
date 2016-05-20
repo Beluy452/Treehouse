@@ -5,6 +5,18 @@
 }
 a {
   text-decoration: none;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+a:hover {
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
 }
 header {
   overflow: hidden;
@@ -130,11 +142,6 @@ header .container nav ul li a.active::after {
 .button a:hover {
   color: #fff;
   background-color: #7cc576;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -ms-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s;
 }
 .service-sect {
   text-align: center;
@@ -181,7 +188,7 @@ header .container nav ul li a.active::after {
   float: left;
   width: 40%;
   height: 617px;
-  background-position: 350px;
+  background-position: 230%;
   background-color: #cccccc;
 }
 .relax-sect .right-block {
@@ -406,6 +413,7 @@ header .container nav ul li a.active::after {
 .awesome-sect .comment-block .img-block img {
   border-radius: 50%;
   max-width: 220px;
+  width: 100%;
 }
 .awesome-sect .comment-block .text-block {
   width: 68%;

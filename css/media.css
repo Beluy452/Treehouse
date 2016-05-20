@@ -81,25 +81,38 @@
 		margin-left: 30px;
 	}
 	.footer-sect .container-footer .info-block h5 {
-		text-align: center;
+
 	}
 	.copyright-sect .block-copyright {
-		width: 44%;
+		width: 100%;
 		margin-bottom: 45px;
 		padding:0 15px;
-	}
-	.social-block {
-		text-align: right;
-	}
-	.copyright-sect .markup-block {
-		width: 100%;
 		text-align: center;
 	}
-	.service-sect .blocks {
-		width: 100%;
+	.copyright-sect .markup-block {
+		margin-bottom: 0;
 	}
 	header .container nav ul li {
 		margin: 0 5px;
+	}
+	header .container nav {
+		float: none;
+		text-align: center;
+		margin-top: 35px;
+		margin-bottom: 0;
+	}
+	header .container .logo {
+		 float: none;
+		text-align: center;
+	}
+	header .container {
+		padding-bottom: 20px;
+	}
+	.culture-sect .block-culture {
+		width: 100%;
+	}
+	.culture-sect .border {
+		display: none;
 	}
 }
 @media only screen and (max-width: 480px) {
