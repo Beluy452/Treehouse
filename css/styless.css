@@ -19,6 +19,9 @@ a:hover {
   -o-transition: .5s;
   transition: .5s;
 }
+.wrapper {
+  overflow: hidden;
+}
 header {
   overflow: hidden;
 }
