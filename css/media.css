@@ -1,0 +1,133 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1300px) {
+	.relax-sect .left-block {
+		background-position: 320px;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.relax-sect .left-block {
+		background-position: 280px;
+	}
+}
+@media only screen and (max-width: 1050px) {
+	.latest-sect .content-latest {
+		background-position: 295px -20px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+	.relax-sect .left-block {
+		display: none;
+	}
+	.relax-sect .right-block {
+		width: 100%;
+		max-height: none;
+	}
+
+	.latest-sect .content-latest {
+		margin-left: 30px;
+		background-position: 335px 5px;
+	}
+	.brands-sect a {
+		padding: 0 1%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.brands-sect a {
+		display: inline-block;
+		width: 45%;
+		margin-bottom: 15px;
+	}
+}
+@media only screen and (max-width: 675px) {
+	header .container nav ul li {
+		display: inline-block;
+		margin: 0 10px;
+	}
+
+	.awesome-sect .comment-block .img-block {
+		margin-right: 30px;
+		width: 100%;
+		text-align: center !important;
+	}
+	.awesome-sect .comment-block .text-block {
+		width: 100%;
+		margin-top: 35px;
+	}
+	.awesome-sect .comment-block:nth-child(even) .text-block::after {
+		border: 20px solid transparent;
+		content: '';
+		position: absolute;
+		bottom: 170px;
+		border-bottom: 35px solid #F9F9F9;
+		right: 47%;
+	}
+	.awesome-sect .comment-block:nth-child(odd) .text-block::after {
+		border: 20px solid transparent;
+		content: '';
+		position: absolute;
+		bottom: 170px;
+		border-bottom: 35px solid #F9F9F9;
+		left: 47%;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.footer-sect .container-footer .info-block {
+		width: 100%;
+		margin-left: 30px;
+	}
+	.footer-sect .container-footer .info-block h5 {
+		text-align: center;
+	}
+	.copyright-sect .block-copyright {
+		width: 44%;
+		margin-bottom: 45px;
+		padding:0 15px;
+	}
+	.social-block {
+		text-align: right;
+	}
+	.copyright-sect .markup-block {
+		width: 100%;
+		text-align: center;
+	}
+	.service-sect .blocks {
+		width: 100%;
+	}
+	header .container nav ul li {
+		margin: 0 5px;
+	}
+}
+@media only screen and (max-width: 480px) {
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+}
+@media only screen and (min-width: 675px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1368px) {
+	
+}
