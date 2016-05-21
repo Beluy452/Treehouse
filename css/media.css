@@ -34,18 +34,18 @@
 	.brands-sect a {
 		padding: 0 1%;
 	}
+	.footer-sect .container-footer {
+		padding: 0 20px;
+	}
+	.copyright-sect .block-copyright {
+		text-align: center;
+	}
 }
 @media only screen and (max-width: 768px) {
 	.brands-sect a {
 		display: inline-block;
 		width: 45%;
 		margin-bottom: 15px;
-	}
-}
-@media only screen and (max-width: 675px) {
-	header .container nav ul li {
-		display: inline-block;
-		margin: 0 10px;
 	}
 	.awesome-sect .comment-block .img-block {
 		margin-right: 30px;
@@ -60,7 +60,7 @@
 		border: 20px solid transparent;
 		content: '';
 		position: absolute;
-		bottom: 195px;
+		bottom: 170px;
 		border-bottom: 35px solid #F9F9F9;
 		right: 47%;
 	}
@@ -68,10 +68,26 @@
 		border: 20px solid transparent;
 		content: '';
 		position: absolute;
-		bottom: 195px;
+		bottom: 170px;
 		border-bottom: 35px solid #F9F9F9;
 		left: 47%;
 	}
+	.footer-sect .container-footer .info-block {
+		width: 100%;
+		margin-left: 30px;
+		padding: 60px 3% 0 0;
+	}
+	.footer-sect .container-footer .info-block h5 {
+		text-align: center;
+	}
+
+}
+@media only screen and (max-width: 675px) {
+	header .container nav ul li {
+		display: inline-block;
+		margin: 0 10px;
+	}
+
 	.creative-sect h1 {
 		font-size: 40px;
 	}
@@ -106,16 +122,7 @@
 		max-width: 300px;
 		margin: 0 auto;
 	}
-	.footer-sect .container-footer .info-block {
-		width: 100%;
-		margin-left: 30px;
-	}
-	.footer-sect .container-footer .info-block h5 {
-		text-align: center;
-	}
-}
 
-@media only screen and (max-width: 575px) {
 	.copyright-sect .block-copyright {
 		width: 100%;
 		margin-bottom: 45px;
@@ -131,6 +138,10 @@
 	.culture-sect .border {
 		display: none;
 	}
+}
+
+@media only screen and (max-width: 575px) {
+
 
 }
 @media only screen and (max-width: 480px) {
