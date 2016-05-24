@@ -40,14 +40,14 @@ $(document).ready(function () {
     // });
 
    // Mobile Navigation
-   // $('.nav-bar').click(function () {
-   //  $('menu').slideToggle('Open');
-   //  });
-   // $('menu a').click(function () {
-   //  if($(document).width() <676){
-   //      $('menu').slideToggle('Open');
-   //  }
-   //  })
+   $('.toggle-menu').click(function () {
+    $('nav').slideToggle('Open');
+    });
+   $('nav ul a').click(function () {
+    if($(document).width() <676){
+        $('nav').slideToggle('Open');
+    }
+    })
 
 
 
