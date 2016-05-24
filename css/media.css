@@ -145,14 +145,29 @@
 		padding: 0 1%;
 	}
 }
-
+@media only screen and (max-width: 375px) {
+	header .container nav {
+		display: none;
+		margin-top: 20px;
+	}
+	.toggle-menu{
+		display: block;
+	}
+	header .container nav ul li {
+		display: block;
+		text-align: left;
+		padding: 10px;
+	}
+}
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-
+@media only screen and (min-width: 376px) {
+	.toggle-menu {
+		display: none;
+	}
 }
 @media only screen and (min-width: 675px) {
 

@@ -72,6 +72,23 @@ header .container .logo h3 {
   color: #555555;
   padding-left: 5px;
 }
+header .container .toggle-menu {
+  position: relative;
+  left: 10px;
+}
+header .container .toggle-menu span {
+  border-bottom: 3px solid #000;
+  display: block;
+  width: 25px;
+}
+header .container .toggle-menu span:after,
+header .container .toggle-menu span:before {
+  content: '';
+  border-bottom: 3px solid #000;
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
 header .container nav {
   float: right;
 }

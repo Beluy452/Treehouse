@@ -74,6 +74,22 @@ header {
         padding-left: 5px;
       }
     }
+    .toggle-menu {
+        position: relative;
+        left: 10px;
+          span {
+        border-bottom: 3px solid #000;
+        display: block;
+        width: 25px;
+        &:after, &:before {
+          content: '';
+          border-bottom: 3px solid #000;
+          display: block;
+          margin-bottom: 5px;
+          margin-top: 5px;
+        }
+      }
+    }
     nav {
       float: right;
       ul li {
@@ -109,7 +125,6 @@ header {
     }
   }
 }
-
 .creative-sect {
   background-image: url("../img/content/title-section/background.jpg");
   background-repeat: no-repeat;
