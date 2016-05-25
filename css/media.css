@@ -80,6 +80,10 @@
 	.footer-sect .container-footer .info-block h5 {
 		text-align: center;
 	}
+	header .container {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 
 }
 @media only screen and (max-width: 675px) {
@@ -87,7 +91,6 @@
 		display: inline-block;
 		margin: 0 10px;
 	}
-
 	.creative-sect h1 {
 		font-size: 40px;
 	}
@@ -139,7 +142,6 @@
 		display: none;
 	}
 }
-
 @media only screen and (max-width: 480px) {
 	header .container nav ul li {
 		padding: 0 1%;

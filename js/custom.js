@@ -29,30 +29,43 @@ $(document).ready(function () {
     });//scroll якорів
 
     // Header Scroll
-    // $(window).on('scroll', function() {
-    //     var scroll = $(window).scrollTop();
-    //
-    //     if (scroll >= 250) {
-    //         $('header').addClass('fixed');
-    //     } else {
-    //         $('header').removeClass('fixed');
-    //     }
-    // });
+    $(window).on('scroll', function() {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 250) {
+            $('header').addClass('fixed');
+        } else {
+            $('header').removeClass('fixed');
+        }
+    });
 
    // Mobile Navigation
    $('.toggle-menu').click(function () {
     $('nav').slideToggle('Open');
+    $('.toggle-menu').toggleClass('Active');
     });
+    // Desktop navigation
+    $(window).resize(function(){
+        var windowWidth = $(window).width();
+        if(windowWidth > 376) {
+            $("nav").css({"display": "block"});
+        }
+        else {
+            $("nav").css({"display": "none"});
+        }
+    });
+    // Mobile Navigation click
    $('nav ul a').click(function () {
-    if($(document).width() <676){
+    if($(document).width() <376){
         $('nav').slideToggle('Open');
     }
-    })
+    });
 
-
-
+    $('#secondaryButton').click(function(){
+        $('.fb-login-button').click();
+        console.log('whatafuck')
+    });
 });
-//
+
 // $(document).ready(function($) {
 //   $('a[href^="#"]').bind('click.smoothscroll', function(e) {
 //     e.preventDefault();
