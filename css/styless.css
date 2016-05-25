@@ -25,11 +25,6 @@ a:hover {
 header {
   overflow: hidden;
 }
-header .fixed {
-  position: fixed;
-  background-color: #ffffff;
-  width: 100%;
-}
 header .container {
   max-width: 950px;
   margin: 0 auto;
@@ -111,6 +106,13 @@ header .container nav ul li a:focus::after,
 header .container nav ul li a.active::after {
   opacity: 1;
   width: 100%;
+}
+.fixed {
+  position: fixed;
+  background-color: #ffffff;
+  width: 100%;
+  box-shadow: 0px 1px 10px;
+  z-index: 9;
 }
 .toggle-menu {
   position: relative;
@@ -648,7 +650,4 @@ header .container nav ul li a.active::after {
   -ms-transition: 0.7s;
   -o-transition: 0.7s;
   transition: 0.7s;
-}
-.fb-login-button {
-  opacity: 0.9;
 }
